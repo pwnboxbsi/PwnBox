@@ -1,17 +1,17 @@
-# Project Title
+# PwnBox
 
-One Paragraph of project description goes here
+PwnBox est un kit permettant de mettre en place des attaques de type Rogue AP. Le PoC permet de réaliser un faux point d'accès wifi qui utilise un DNS menteur pour faire du phishing sur le site ciblé. C'est donc un phishing wifi et web.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Pour installer PwnBox vous avez besoin d'un Raspberry PI 3 avec 3 interfaces eth0 et wlan0/wlan1. Le RPi doit être installé sous Raspbian stretch et être complètement vierge de toute configuration. Téléchargez les sources avec GIT et lancez setup.sh
+Attention cela vos modifier définitivement certain fichiers de configuration.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+Raspbian stretch à jour sans rien d'autres (git à la limite)
 ```
-Give examples
+GIT
 ```
 
 ### Installing
