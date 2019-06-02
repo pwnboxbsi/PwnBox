@@ -1,0 +1,296 @@
+﻿
+.label {
+	text-align: left;
+}
+
+#overlay {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 100;
+	display: none;
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=60);
+	/* Older than Firefox 0.9 */
+	-moz-opacity: 0.6;
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.6;
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.6;
+}
+
+#search {
+	background-color: #E4E4E4;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	padding: 5px;
+	margin: 5px;
+	overflow: visible;
+	z-index: 101;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -400px;
+	/*display:none;*/
+}
+
+#triplist {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#triplist th {
+	padding: 4px;
+}
+
+#triplist tr:nth-of-type(2n) {
+	background-color: #e4e4e4;
+}
+
+#triplist td {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.coinList .customerName,
+.coinList .customername {
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+
+.coinList span.serviceCode {
+	display: block;
+	width: 120px;
+	float: left;
+}
+
+.vaultList span.serviceCode {
+	display: block;
+	width: 190px;
+	float: left;
+}
+
+tr.TableHeader, td.TableHeader, th.TableHeader {
+	font-weight: bold;
+	border-bottom: solid 1px #000000;
+	vertical-align: bottom;	
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.TableHeader a:link {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.TableHeader a:active {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.TableHeader a:visited {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.TableHeader a:hover {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+tr.TableItem, td.TableItem {
+	border-collapse: collapse;	
+}
+
+tr.TableAlt, td.TableAlt {
+	background-color: #e3e3e3;
+	color: #004c77;
+	border-right: dashed 1px #aaaaaa;
+	border-left: dashed 1px #aaaaaa;
+	border-collapse: collapse;
+}
+
+#bottomrow {
+	overflow: auto;
+}
+
+
+#addnewlink {
+	cursor: pointer;
+	width: 140px;
+	background-color: #fff;
+	padding: 1px;
+	text-align: center;
+	border: 1px solid #333333;
+	display: inline-block;
+	font-weight: bold;
+}
+
+#inputcontainer {
+	width: 800px;
+}
+
+
+#customerlabel {
+	float: left;
+}
+
+#flexcustomers {
+	float: right;
+}
+
+.newrow {
+	clear: both;
+}
+
+#location {
+	clear: both;
+	padding-top: 8px;
+}
+
+#locationlabel {
+	float: left;
+}
+
+#flexlocations {
+	float: right;
+}
+
+#servicespecial {
+	clear: both;
+	padding-top: 2px;
+}
+
+#servicecodes {
+	clear: both;
+	padding-top: 2px;
+}
+
+#leftcolumn {
+	float: left;
+	width: 40%;
+	padding-top: 4px;
+}
+
+#centercolumn {
+	float: left;
+	padding-top: 4px;
+}
+
+#rightcolumn {
+	float: right;
+	width: 290px;
+}
+
+#delivery {
+	float: left;
+	width: 150px;
+	padding-right: 22px;
+}
+
+#pickup {
+	float: right;
+	width: 150px;
+}
+
+#rowtemplate {
+	width: 100%;
+	border: 1px solid #afafa;
+	background-color: #e4e4e4;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	padding: 5px;
+	margin: 5px;
+	display: none;
+}
+
+.template {
+	display: none;
+}
+
+#locationsel {
+	width: 300px;
+}
+
+.inlinediv {
+	display: inline;
+}
+
+.button {
+	cursor: pointer;
+}
+
+	.button:hover {
+		text-decoration: underline;
+	}
+
+
+.col0 {
+	float: left;
+	width: 60px;
+}
+
+.col1 {
+	float: left;
+	width: 260px;
+}
+
+.col2 {
+	float: left;
+	width: 220px;
+}
+
+.col3 {
+	float: left;
+	width: 90px;
+}
+
+.col4 {
+	float: left;
+	width: 20px;
+}
+
+.col5 {
+	float: left;
+}
+
+#flexcustomerslabel {
+	clear: both;
+	padding-left: 80px;
+}
+
+#flexlocationslabel {
+	clear: both;
+	padding-left: 80px;
+}
+
+
+ul.serviceList {
+	margin: 0;
+	padding: 0;
+}
+
+	ul.serviceList li {
+		list-style-type: none;
+		padding-bottom: 3px;
+	}
+
+table.servicesPerformed .serviceName {
+	font-weight: bold;
+}
+
+table.servicesPerformed .serviceInput {
+	padding-left: 4px;
+}
